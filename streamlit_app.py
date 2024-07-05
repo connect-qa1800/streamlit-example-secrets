@@ -15,6 +15,8 @@ forums](https://discuss.streamlit.io).
 In the meantime, below is an example of what you can do with just a few lines of code:
 """
 
+st.text("This is Streamlit App with Secrets")
+
 st.text(os.environ)
 st.text(os.environ.get('test_secret_1', 'not found'))
 st.text(os.environ.get('test_secret_2', 'not found'))
